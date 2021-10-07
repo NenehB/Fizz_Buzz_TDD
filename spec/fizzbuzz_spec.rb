@@ -17,4 +17,8 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(4)).to eq 4
   end 
 
+  it 'returns "Wrong Input" when passed a string' do
+    expect(fizzbuzz("ABC")).to eq "Wrong Input"
+  end
+
 end 
