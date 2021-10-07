@@ -6,7 +6,9 @@ def fizzbuzz(number)
     'buzz'
   elsif number % 3 == 0
     "fizz"
-  else
+  elsif number.is_a?(String)
+    "Wrong Input"
+  else 
     number
   end
 end 
